@@ -44,10 +44,10 @@ dfm2 = pd.read_csv("df_matrix.csv")
 dataset_sample = pd.read_csv("dataset.csv", index_col = 0)
 pop_genre = pd.read_csv("pop_genre.csv", index_col = 0)
 numgenres = pd.read_csv('numgenres.csv', index_col = 0)
-top10artists = pd.read_csv('top10artists.csv', index_col = 0)
-top15artists = pd.read_csv('top15artists.csv', index_col = 0)
-top15titres = pd.read_csv('top15titres.csv', index_col = 0)
-top15genres = pd.read_csv('top15genres.csv', index_col = 0)
+top10artists = pd.read_csv('top10artistes.csv', index_col = 0)
+top15artists = pd.read_csv('top15artistes.csv', index_col = 0)
+top15titres = pd.read_csv('top15titresFR.csv', index_col = 0)
+top15genres = pd.read_csv('top15genresFR.csv', index_col = 0)
 
 # Page d'accueil 
 if page == pages[0]: 
