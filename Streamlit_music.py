@@ -132,7 +132,7 @@ if page == pages[2]:
             st.write("Aperçu du dataset :")
             module4_5 = pd.read_csv("module4_cleaned_5.csv", index_col = 0)
             st.dataframe(module4_5)
-            st.divider()
+            st.write("")
             st.write("Tous nos datasets sont accessibles librement sur le site [kaggle.com](https://kaggle.com/).", unsafe_allow_html=True)
 
     with tab2:
@@ -342,7 +342,7 @@ if page == pages[3]:
                     plt.ylabel('Popularité globale', labelpad = 20, fontsize = 12);'''
                     st.code(code, language = 'python')
                 st.write("")
-                st.divider()
+                st.write("")
                 st.write("")
                 st.write("S'agissant du nombre de morceaux par famille de genres en revanche, le regroupement a pour effet une sur-représentation de certains genres comme les musiques du monde, ou le genre 'Divers'.")
                 st.write("Le graphique ci-dessous nous permet également de constater que certains genres parmi les plus populaires, comme le hip-hop ou la pop, restent globalement sous-représentés.")
@@ -489,7 +489,7 @@ if page == pages[4]:
                 st.write("")
                 st.write("Les silhouette scores sont globalement plutôt proches de la valeur 0, ce qui n’est pas un bon signe pour la robustesse et l’efficacité de notre algorithme.")
                 st.write("On remarque également que le nombre de clusters qui obtient le meilleur silhouette_score est 7. Cette valeur est proche de l’estimation obtenue avec le “KElbowVisualizer”.")
-                st.divider()
+                st.write("")
                 st.write("Pour pouvoir déterminer de manière sûre le nombre optimal de clusters, nous avons finalement représenté l’analyse de silhouette pour un nombre de clusters allant de 6 à 10, puisque le nombre idéal de clusters semble se situer entre 7 et 8.")
                 st.write("Sur ces graphiques, les clusters sont représentés les uns par rapport aux autres, et mis en perspective au regard de leur score respectif.")
                 st.write("")
